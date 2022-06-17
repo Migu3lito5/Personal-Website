@@ -1,0 +1,39 @@
+.top-header {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-bottom: solid;
+    border-color: rgb(55, 55, 55);
+}
+
+.left-section {
+    background-color: #353f2e;
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+    
+    
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.intro-text {
+    color: #E9EBED;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+
+.right-section {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    background-color: #353f2e;
+}
