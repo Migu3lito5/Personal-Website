@@ -1,39 +1,57 @@
 .top-header {
     display: flex;
     flex-direction: row;
-    height: 100px;
+    height: 130px;
     position: fixed;
-    justify-content: space-between;
     top: 0;
     left: 0;
     right: 0;
     z-index: 100;
+    border-top: solid;
     border-bottom: solid;
     border-color: rgb(55, 55, 55);
-}
-
-.left-section {
     background-color: #353f2e;
-    display: flex;
-    flex: 1;
-    align-items: center;
-
-    
-    
-    padding-left: 100px;
-    padding-right: 100px;
+    justify-content: space-between;
 }
 
-.intro-text {
-    color: #E9EBED;
-    font-size: 24px;
+.left-section {    
+    margin-left: 100px;
+}
+
+.name-intro {
+    font-size: 26px;
     white-space: nowrap;
+    margin-bottom: 1px;
+}
+
+.desc-intro {
+    color: #b8c1a8;
+    margin-top: 0px;
+    font-size: 14px;
+    margin-left: 50px;
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    justify-content: space-between;
 }
 
 
 .right-section {
-    width: 500px;
     display: flex;
     align-items: center;
-    background-color: #353f2e;
+    width: 500px;
+    margin-right: 70px;
+}
+
+.linkedIn-logo {
+    margin-left: 100px;
+    height: 75px;
+}
+
+.github-logo{
+    margin-left: 20px;
+    height: 46px;
 }
