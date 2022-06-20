@@ -3,8 +3,13 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
-    background-color: #fbfdff;
-    margin-top: 150px;
+    background-color: #fbfbfb;
+    padding-top: 180px;
+    padding-bottom: 600px;
 }
