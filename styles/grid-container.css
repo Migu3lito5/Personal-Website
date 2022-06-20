@@ -14,7 +14,34 @@
     height: 100%;
     width: 100%;
     font-size: 24px;
+    transition: width 0.5s;
 }
+
+
+
+.grid-child:hover{
+    height: 120%;
+    width: 120%;
+    margin: -50px;
+    z-index: 2;
+}
+
+.grid-child p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+   
+}
+
+.grid-child img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+    border-radius: 200px;
+}
+
 
 .light-green {
     background-color: rgb(52, 55, 52);
