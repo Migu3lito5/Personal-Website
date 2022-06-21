@@ -10,7 +10,10 @@
     border-top: solid;
     border-bottom: solid;
     border-color: rgb(55, 55, 55);
-    background-color: #535e4b;
+    
+    background: rgb(111,124,110);
+    background: linear-gradient(90deg, rgba(111,124,110,1) 12%,
+     rgba(83,94,75,1) 49%, rgba(112,125,112,1) 96%);
     justify-content: space-between;
 }
 
