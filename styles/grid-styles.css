@@ -16,7 +16,14 @@
     background-color: rgb(112, 125, 112);
 }
 
+.cream-background p {
+    
+    color:rgb(51, 58, 47);
+    font-size: 19px;
+}
+
 .cream-background {
     background-color: rgb(230, 234, 225);
+    
 }
 
