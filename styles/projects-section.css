@@ -1,0 +1,16 @@
+.project-background-wrapper {
+    background-color: rgb(36, 36, 36);
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: 5%;
+    height:  58rem  ;
+}
+
+.project-background-wrapper h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    
+}
