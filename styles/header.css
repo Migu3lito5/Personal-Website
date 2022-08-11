@@ -1,20 +1,16 @@
 .top-header {
     display: flex;
     flex-direction: row;
-    height: 130px;
+    height: 140px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 100;
-    border-top: solid;
-    border-bottom: solid;
-    border-color: rgb(55, 55, 55);
-    
-    background: rgb(111,124,110);
     background: linear-gradient(90deg, rgba(111,124,110,1) 12%,
      rgba(83,94,75,1) 49%, rgba(112,125,112,1) 96%);
     justify-content: space-between;
+   
 }
 
 .left-section {    
@@ -41,8 +37,6 @@
     justify-content: space-between;
 }
 
-
-
 .right-section {
     display: flex;
     align-items: center;
@@ -65,7 +59,6 @@
     padding-right: 5px;
     transition: font-size 0.44s;
 }
-
 
 .top-right-info:hover {
     cursor: pointer;

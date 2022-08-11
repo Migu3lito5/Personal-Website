@@ -6,7 +6,10 @@
     margin: 100px;
 }
 
+
+
 .grid-child {
+    
     background-color: rgb(78, 90, 71);
     display: flex;
     flex-direction: row;
@@ -15,16 +18,21 @@
     width: 100%;
     font-size: 22px;
     border-radius: 10px;
-    transition: width 0.5s;
+    border-color: black;
+    transition: border-color 0.4s ;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    
+    
 }
 
 
 
-.grid-child:hover{
-    height: 120%;
-    width: 120%;
-    margin: -50px;
-    z-index: 2;
+.hover-animation:hover{
+    
+   
+    z-index: 3;
+    border-style: solid;
+    border-color: aliceblue;
 }
 
 .grid-child p {
@@ -62,7 +70,32 @@
     .grid-tall-2 {
         grid-row: span 2 / auto;
     }
-
     
+}
+
+.dark-green-background {
+    background-color:rgb(78, 90, 71);
+}
+
+.brown1-background {
+    background-color:rgb(77, 68, 52); 
+}
+
+.grey-background {
+    background-color: rgb(68, 68, 68);
+}
+
+.green1-background {
+    background-color: rgb(112, 125, 112);
+}
+
+.cream-background p {
+    
+    color:rgb(51, 58, 47);
+    font-size: 19px;
+}
+
+.cream-background {
+    background-color: rgb(230, 234, 225);
     
 }
