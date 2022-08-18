@@ -16,7 +16,7 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    font-size: 22px;
+    font-size: 20px;
     border-radius: 10px;
     border-color: black;
     transition: border-color 0.4s ;
@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10%;
+    margin: 8%;
    
 }
 
