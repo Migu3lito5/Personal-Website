@@ -1,8 +1,8 @@
 .education-section {
     background:  rgb(255, 251, 238);
-    padding-bottom: 70px;
+    padding-bottom: 140px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 70px;
    
 }
 
@@ -15,13 +15,13 @@
 
 .schools {
     color:rgb(109, 94, 67); 
-    font-size: 1.5em;
+    font-size: 1.5rem;
     margin: 0 5% 0 5%;
 }
 
 .working-section {
     background:  rgb(252, 255, 247);
-    padding-bottom: 80px;
+    padding-bottom: 150px;
     text-align: center;
     padding-top: 80px;
 }
@@ -45,8 +45,8 @@
 }
 
 .contact-box {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 110px;
+    padding-bottom: 210px;
     background-color:  rgb(36, 36, 36);
     text-align: center;
     color: whitesmoke;
@@ -55,11 +55,11 @@
 
 
 .contact-box p {
-    margin-left: 10%;
-    margin-right: 10%;
+
+    margin: 30px 10% 40px 10%;
+    font-size: 0.9rem;
+
 }
-
-
 
 .input-s {
     margin-top: 30px;
